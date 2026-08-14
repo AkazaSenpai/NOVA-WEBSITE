@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07080c" />
+  <title>NOVA — Unity Game Developer</title>
+  <meta name="description" content="A cinematic Unity game developer portfolio with interactive projects, skills, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <canvas id="stars"></canvas>
+  <div class="cursor-glow"></div>
+
+  <header class="nav glass">
+    <a class="brand" href="#home" aria-label="NOVA home">
+      <span class="brand-mark"><span></span></span>
+      <span>NOVA<span class="brand-dot">.</span></span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#games">Games</a>
+      <a href="#arsenal">Arsenal</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-cta" href="#contact">Let's build <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> UNITY GAME DEVELOPER</div>
+        <h1>I build worlds<br><span>worth getting lost in.</span></h1>
+        <p class="hero-text">
+          Gameplay systems, cinematic atmosphere and responsive mechanics —
+          crafted in Unity with a serious obsession for feel.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#games">Explore my games <span>↓</span></a>
+          <a class="btn btn-ghost" href="#about">Meet the developer</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>04+</strong><span>Games shipped</span></div>
+          <div><strong>3</strong><span>Years building</span></div>
+          <div><strong>∞</strong><span>Ideas pending</span></div>
+        </div>
+      </div>
+
+      <div class="hero-scene reveal">
+        <div class="orbital-ui ui-top glass">
+          <span class="signal-dot"></span>
+          <span>LIVE BUILD</span>
+          <b>0.98</b>
+        </div>
+
+        <div class="scene-core">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="orbit orbit-c"></div>
+          <div class="core-glow"></div>
+          <div class="core-shell">
+            <div class="core-inner">
+              <div class="unity-glyph">U</div>
+              <span>UNITY</span>
+            </div>
+          </div>
+          <div class="sat sat-one">FPS</div>
+          <div class="sat sat-two">AI</div>
+          <div class="sat sat-three">VFX</div>
+        </div>
+
+        <div class="orbital-ui ui-bottom glass">
+          <div><span class="mini-icon">◈</span><span>CURRENTLY BUILDING</span></div>
+          <strong>PROJECT // ECHO</strong>
+          <span class="progress"><i></i></span>
+          <small>74% systems online</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee">
+      <div class="marquee-track">
+        <span>GAMEPLAY</span><i>✦</i><span>UNITY</span><i>✦</i><span>LEVEL DESIGN</span><i>✦</i><span>VFX</span><i>✦</i><span>GAME FEEL</span><i>✦</i>
+        <span>GAMEPLAY</span><i>✦</i><span>UNITY</span><i>✦</i><span>LEVEL DESIGN</span><i>✦</i><span>VFX</span><i>✦</i><span>GAME FEEL</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker">01 / SELECTED WORK</div>
+          <h2>Worlds I've<br><em>built.</em></h2>
+        </div>
+        <p>Not mockups. Actual ideas turned into playable systems, scenes and mechanics.</p>
+      </div>
+
+      <div class="game-grid">
+        <article class="game-card featured reveal tilt">
+          <div class="game-art art-one">
+            <div class="art-hud"><span>01</span><span>SURVIVAL / HORROR</span></div>
+            <div class="moon"></div>
+            <div class="mountain mountain-a"></div>
+            <div class="mountain mountain-b"></div>
+            <div class="player-silhouette"></div>
+            <div class="art-caption">ECHO</div>
+          </div>
+          <div class="card-content">
+            <div>
+              <span class="tag">UNITY 6 • PC</span>
+              <h3>Echo Protocol</h3>
+              <p>A psychological survival prototype built around sound, darkness and reactive AI.</p>
+            </div>
+            <a class="icon-btn" href="#" aria-label="Open Echo Protocol">↗</a>
+          </div>
+        </article>
+
+        <article class="game-card reveal tilt">
+          <div class="game-art art-two">
+            <div class="city-grid"></div>
+            <div class="neon-ring"></div>
+            <div class="ship"></div>
+            <div class="art-hud"><span>02</span><span>ACTION / SCI-FI</span></div>
+            <div class="art-caption">VOID//RUNNER</div>
+          </div>
+          <div class="card-content">
+            <div>
+              <span class="tag">UNITY • PC</span>
+              <h3>Void Runner</h3>
+              <p>Fast movement, modular weapons and a city that reacts to the player.</p>
+            </div>
+            <a class="icon-btn" href="#" aria-label="Open Void Runner">↗</a>
+          </div>
+        </article>
+
+        <article class="game-card reveal tilt">
+          <div class="game-art art-three">
+            <div class="pixel-sun"></div>
+            <div class="terrain"></div>
+            <div class="character"></div>
+            <div class="art-hud"><span>03</span><span>ADVENTURE</span></div>
+            <div class="art-caption">AFTERLIGHT</div>
+          </div>
+          <div class="card-content">
+            <div>
+              <span class="tag">UNITY • MOBILE</span>
+              <h3>Afterlight</h3>
+              <p>A stylized exploration game focused on traversal, atmosphere and discovery.</p>
+            </div>
+            <a class="icon-btn" href="#" aria-label="Open Afterlight">↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="arsenal">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker">02 / ARSENAL</div>
+          <h2>The stack<br><em>behind the magic.</em></h2>
+        </div>
+        <p>Tools are just tools. The important bit is what gets built with them.</p>
+      </div>
+
+      <div class="arsenal-grid">
+        <div class="skill-panel glass reveal">
+          <div class="panel-top"><span>CORE SYSTEMS</span><span>01—05</span></div>
+          <div class="skill"><div><span>Unity / C#</span><b>96%</b></div><div class="bar"><i style="width:96%"></i></div></div>
+          <div class="skill"><div><span>Gameplay Programming</span><b>92%</b></div><div class="bar"><i style="width:92%"></i></div></div>
+          <div class="skill"><div><span>AI / State Machines</span><b>84%</b></div><div class="bar"><i style="width:84%"></i></div></div>
+          <div class="skill"><div><span>UI / UX</span><b>88%</b></div><div class="bar"><i style="width:88%"></i></div></div>
+          <div class="skill"><div><span>Optimization</span><b>80%</b></div><div class="bar"><i style="width:80%"></i></div></div>
+        </div>
+
+        <div class="tool-cloud reveal">
+          <div class="tool glass"><span>◉</span><strong>Unity</strong><small>Engine</small></div>
+          <div class="tool glass"><span>⌘</span><strong>C#</strong><small>Code</small></div>
+          <div class="tool glass"><span>✦</span><strong>Blender</strong><small>3D</small></div>
+          <div class="tool glass"><span>◌</span><strong>Git</strong><small>Versioning</small></div>
+          <div class="tool glass"><span>◈</span><strong>FMOD</strong><small>Audio</small></div>
+          <div class="tool glass"><span>◆</span><strong>Shader Graph</strong><small>Visuals</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-orb reveal">
+        <div class="about-orbit one"></div>
+        <div class="about-orbit two"></div>
+        <div class="about-core">N</div>
+      </div>
+
+      <div class="about-copy reveal">
+        <div class="section-kicker">03 / THE HUMAN BEHIND IT</div>
+        <h2>Less “developer.”<br><em>More world builder.</em></h2>
+        <p>
+          I’m a Unity game developer obsessed with the tiny details that make games feel alive —
+          the snap of a reload, a good camera shake, footsteps changing with surfaces, a UI that
+          reacts instead of just existing.
+        </p>
+        <p>
+          I like dark sci-fi, atmospheric horror, competitive mechanics and interfaces that feel
+          like they belong inside the world. My workflow sits somewhere between engineer, designer
+          and problem-solving gremlin.
+        </p>
+        <div class="signature">NOVA / 26</div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker">04 / HOW I BUILD</div>
+          <h2>Idea → <em>playable.</em></h2>
+        </div>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step reveal"><span>01</span><h3>Prototype</h3><p>Get the core mechanic working ugly and fast.</p></div>
+        <div class="process-step reveal"><span>02</span><h3>Feel</h3><p>Camera, feedback, sound and movement get tuned until it clicks.</p></div>
+        <div class="process-step reveal"><span>03</span><h3>Polish</h3><p>Art direction, UI, VFX and performance turn the prototype into a game.</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-card glass reveal">
+        <div class="contact-radar">
+          <div class="radar-ring r1"></div>
+          <div class="radar-ring r2"></div>
+          <div class="radar-sweep"></div>
+          <div class="radar-core"></div>
+        </div>
+        <div class="contact-copy">
+          <div class="section-kicker">05 / OPEN CHANNEL</div>
+          <h2>Got a game<br><em>in your head?</em></h2>
+          <p>Let’s turn the idea into something playable.</p>
+          <a class="btn btn-primary" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 NOVA // UNITY GAME DEVELOPER</span>
+    <span>BUILT WITH OBSESSION + TOO MUCH COFFEE</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
